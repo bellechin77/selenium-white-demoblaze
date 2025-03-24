@@ -19,7 +19,7 @@ This story ensures that a new user can successfully create an account and receiv
 
 | Given | When | Then |
 | :---- | :---- | :---- |
-| 🔹 A user is on the home page of the application. <br> 🔹 The user wants to create a new account. | 🔹 The user clicks on the "Sign up" link in the navigation bar. <br> 🔹 The sign-up form appears. <br> 🔹 The user enters a unique username and password. <br> 🔹 The user submits the sign-up form. | 🔹 The system displays an alert confirming that "Sign up successful". <br> 🔹 The user remains on the home page. <br> 🔹 The "Log in" button is visible in the navigation bar, indicating that the user can now log in with their his credentials. |
+| 🔹 A user is on the home page of the application. <br> 🔹 The user wants to create a new account. | 🔹 The user clicks on the "Sign up" link in the navigation bar. <br> 🔹 The sign-up form appears. <br> 🔹 The user enters a unique username and password. <br> 🔹 The user submits the sign-up form. | 🔹 The system displays an alert confirming that "Sign up successful".  |
 
 ###  **(2) User Story: Log in**
 
