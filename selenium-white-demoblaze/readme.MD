@@ -13,7 +13,7 @@ Key Features:
 
 ### Test Automation created for User Stories
 
-###  **1 User Story: Sign Up** 
+###  **(1) User Story: Sign Up** 
 
 This story ensures that a new user can successfully create an account and receive confirmation of the action. 
 
@@ -21,7 +21,7 @@ This story ensures that a new user can successfully create an account and receiv
 | :---- | :---- | :---- |
 | A user is on the home page of the application. The user wants to create a new account. | The user clicks on the "Sign up" link in the navigation bar. The sign-up form appears. The user enters a unique username and password. The user submits the sign-up form. | The system displays an alert confirming that "Sign up successful". The user remains on the home page. The "Log in" button is visible in the navigation bar, indicating that the user can now log in with their his credentials. |
 
-2) ###  **User Story: Log in**
+###  **(2) User Story: Log in**
 
 This user story ensures that a user can successfully log in with valid user credentials.
 
@@ -29,7 +29,7 @@ This user story ensures that a user can successfully log in with valid user cred
 | :---- | :---- | :---- |
 | A user is on the home page of the application. The user has an existing account with a valid username and password. The "Log in" button is visible in the navigation menu. | The user clicks on the "Log in" button. The login modal appears. The user enters valid credentials. The user clicks the "Log in" button in the modal.  | The login modal closes. A welcome message appears in the navigation bar, displaying "Welcome \[username\]".  |
 
-3) ###  **User Story: Order**
+###  **(3) User Story: Order**
 
 This user story outlines the key steps involved in adding products to the cart, confirming the order, and verifying the purchase success message.
 
