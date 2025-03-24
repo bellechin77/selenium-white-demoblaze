@@ -13,7 +13,7 @@ Key Features:
 
 ### Test Automation created for User Stories
 
-1) ###  **User Story: Sign Up** 
+###  **1 User Story: Sign Up** 
 
 This story ensures that a new user can successfully create an account and receive confirmation of the action. 
 
