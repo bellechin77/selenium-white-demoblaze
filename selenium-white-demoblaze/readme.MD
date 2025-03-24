@@ -19,7 +19,7 @@ This story ensures that a new user can successfully create an account and receiv
 
 | Given | When | Then |
 | :---- | :---- | :---- |
-| A user is on the home page of the application. The user wants to create a new account. | The user clicks on the "Sign up" link in the navigation bar. The sign-up form appears. The user enters a unique username and password. The user submits the sign-up form. | The system displays an alert confirming that "Sign up successful". The user remains on the home page. The "Log in" button is visible in the navigation bar, indicating that the user can now log in with their his credentials. |
+| 🔹 A user is on the home page of the application. <br> 🔹 The user wants to create a new account. | 🔹 The user clicks on the "Sign up" link in the navigation bar. <br> 🔹 The sign-up form appears. <br> 🔹 The user enters a unique username and password. <br> 🔹 The user submits the sign-up form. | 🔹 The system displays an alert confirming that "Sign up successful". <br> 🔹 The user remains on the home page. <br> 🔹 The "Log in" button is visible in the navigation bar, indicating that the user can now log in with their his credentials. |
 
 ###  **(2) User Story: Log in**
 
@@ -27,7 +27,7 @@ This user story ensures that a user can successfully log in with valid user cred
 
 | Given | When | Then |
 | :---- | :---- | :---- |
-| A user is on the home page of the application. The user has an existing account with a valid username and password. The "Log in" button is visible in the navigation menu. | The user clicks on the "Log in" button. The login modal appears. The user enters valid credentials. The user clicks the "Log in" button in the modal.  | The login modal closes. A welcome message appears in the navigation bar, displaying "Welcome \[username\]".  |
+| 🔹 A user is on the home page of the application. <br> 🔹 The user has an existing account with a valid username and password. <br> 🔹 The "Log in" button is visible in the navigation menu. | 🔹 The user clicks on the "Log in" button. <br> 🔹 The login modal appears. <br> 🔹 The user enters valid credentials. <br> 🔹 The user clicks the "Log in" button in the modal.  | 🔹 The login modal closes. <br> 🔹 A welcome message appears in the navigation bar, displaying "Welcome \[username\]".  |
 
 ###  **(3) User Story: Order**
 
@@ -35,7 +35,7 @@ This user story outlines the key steps involved in adding products to the cart, 
 
 | Given | When | Then |
 | :---- | :---- | :---- |
-| A user is on the home page of the application. The category menu is visible, allowing the user to browse product categories. | The user selects the Phones category and adds the first available phone to the cart. The user selects the Laptops category and adds the last available laptop to the cart. The user selects the Monitors category and adds a specific product, "Apple monitor 24," to the cart. The user navigates to the Cart page and verifies that all three selected products are present. The user proceeds to Place an Order, fills in the required details (Name, Country, City, Credit Card, Month, Year), and clicks on Purchase.  | A confirmation popup appears with the message "Thank you for your purchase\!" The user clicks OK on the confirmation popup. The user is redirected back to the homepage, completing the purchase process.  |
+| 🔹 A user is on the home page of the application. <br> 🔹 The category menu is visible, allowing the user to browse product categories. | 🔹 The user selects the Phones category and adds the first available phone to the cart. <br> 🔹 The user selects the Laptops category and adds the last available laptop to the cart. <br> 🔹 The user selects the Monitors category and adds a specific product, "Apple monitor 24," to the cart. <br> 🔹 The user navigates to the Cart page and verifies that all three selected products are present. <br> 🔹 The user proceeds to Place an Order, fills in the required details (Name, Country, City, Credit Card, Month, Year), and clicks on Purchase.  | 🔹 A confirmation popup appears with the message "Thank you for your purchase\!" <br> 🔹 The user clicks OK on the confirmation popup. <br> 🔹 The user is redirected back to the homepage, completing the purchase process.  |
 
 ### Test Cases added
 
